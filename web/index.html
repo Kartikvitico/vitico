@@ -4,7 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>VITICO Wholesale</title>
-<link rel="icon" href="logo.png">
+<link rel="icon" href="icon-192.png">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="VITICO">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
 <style>
 :root{
@@ -22,6 +29,8 @@ h1{font-size:2rem}h2{font-size:1.3rem}h3{font-size:1.15rem;font-weight:600}
 p{margin:0}.muted{color:var(--muted)}.small{font-size:.875rem}
 a{color:var(--brand)}
 button,select,input,textarea{font:inherit;color:inherit}
+button,a,select,label{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+html{overscroll-behavior-y:none;-webkit-text-size-adjust:100%}
 :focus-visible{outline:2px solid var(--signal);outline-offset:2px}
 
 .top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--surface);border-bottom:1px solid var(--line)}
